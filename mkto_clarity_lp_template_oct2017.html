@@ -59,14 +59,6 @@
 
     <title></title>
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PFGXWQ8');</script>
-    <!-- End Google Tag Manager -->
-
     <!-- Bootstrap Core CSS -->
     <link href="http://templates.marketo.net/template4/css/bootstrap.css" rel="stylesheet">
     <!-- Custom Fonts -->
@@ -446,14 +438,71 @@
         }
 
     </style>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '367368777027907');
+        fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=367368777027907&ev=PageView&noscript=1"
+/></noscript>
+    <!-- End Facebook Pixel Code -->
+    <script data-obct type="text/javascript">
+        /** DO NOT MODIFY THIS CODE**/ ! function(_window, _document) {
+            var OB_ADV_ID = '00109be4957a33af57b1abeb170701cffe';
+            if (_window.obApi) {
+                return;
+            }
+            var api = _window.obApi = function() {
+                api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
+            };
+            api.version = '1.0';
+            api.loaded = true;
+            api.marketerId = OB_ADV_ID;
+            api.queue = [];
+            var tag = _document.createElement('script');
+            tag.async = true;
+            tag.src = '//amplify.outbrain.com/cp/obtp.js';
+            tag.type = 'text/javascript';
+            var script = _document.getElementsByTagName('script')[0];
+            script.parentNode.insertBefore(tag, script);
+        }(window, document);
+        obApi('track', 'PAGE_VIEW');
+
+    </script>
+    <script type="text/javascript">
+        window._tfa = window._tfa || [];
+        _tfa.push({
+            notify: 'action',
+            name: 'page_view'
+        });
+
+    </script>
+    <script src="//cdn.taboola.com/libtrc/taboolaaccount-karrabarronvisiercom/tfa.js"></script>
+
+
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFGXWQ8"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    
     <header id="navigation" class="navbar-fixed-top navbar dtop_logo">
         <div class="container-fluid">
             <div class="navbar-header" style="display: ${blacklogo}">
