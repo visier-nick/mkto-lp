@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+
+
+
+
+    <meta class="mktoString" id="headerLogoLink" mktoName="Header Logo Link" default="http://www.visier.com">
+
+    <meta class="mktoString" id="mainButtonLabel" mktoName="CTA Under Main Headline" default="Download Now">
+    <meta class="mktoString" id="mainButtonLink" mktoName="CTA Under Main Healdine Link" default="#">
+
+    <meta class="mktoString" id="shortBodyCTALabel" mktoName="CTA Button Body Copy" default="Register Now">
+    <meta class="mktoString" id="shortBodyCTALink" mktoName="CTA Button Link Body Copy" default="#">
+
+    <meta class="mktoString" id="TwoColBlckBtn1Label" mktoName="Two Column 1 Label" default="Download Now">
+    <meta class="mktoString" id="TwoColBlckBtn1Link" mktoName="Two Column 1 Link" default="#">
+
+    <meta class="mktoString" id="TwoColBlckBtn2Label" mktoName="Two Column 2 Label" default="Download Now">
+    <meta class="mktoString" id="TwoColBlckBtn2Link" mktoName="Two Column 2 Link" default="#">
+
+    <meta class="mktoString" id="TwoColBlckBtn3Label" mktoName="Two Column 3 Label" default="Download Now">
+    <meta class="mktoString" id="TwoColBlckBtn3Link" mktoName="Two Column 3 Link" default="#">
+
+    <meta class="mktoString" id="TwoColBlckBtn4Label" mktoName="Two Column 4 Label" default="Download Now">
+    <meta class="mktoString" id="TwoColBlckBtn4Link" mktoName="Two Column 4 Link" default="#">
+
+
+    <meta class="mktoString" id="heroImage" mktoName="Hero Image" default="http://via.placeholder.com/1920x1080">
+
+    <meta class="mktoBoolean" id="showShortMainCopy" mktoName="Short Body Copy" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="showShortMainCopyCTA" mktoName="Short Body Copy CTA" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="twocolumnblack" mktoName="Two Column Black" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="twocolumnblue" mktoName="Two Column Blue" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="relatedblack" mktoName="Related Black" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="relatedblue" mktoName="Related Blue" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="flushleft1" mktoName="Flush Pic One Black" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="flushleft2" mktoName="Flush Pic Two Blue" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="flushleft3" mktoName="Flush with Pic Three Black" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="flushleft4" mktoName="Flush with Pic Four Blue" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="LPFORM" mktoName="Form" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="CALLOUT" mktoName="Callout Box" default="false" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+
+    <meta class="mktoBoolean" id="Headlinecolor" mktoName="Headlinecolor" default="true" false_value="#ffffff" true_value="#000000" false_value_name="White" true_value_name="Black">
+    <meta class="mktoBoolean" id="blacklogo" mktoName="blacklogo" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="whitelogo" mktoName="whitelogo" default="false" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+
+    <meta class="mktoBoolean" id="formdiv" mktoName="Form & Callout Block" default="true" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+    <meta class="mktoBoolean" id="video" mktoName="Video" default="false" false_value="none" true_value="block" false_value_name="Hide" true_value_name="Show">
+
+
+    <meta property="og:image" content="https://{{heroImage}}" />
+    <!--twitter card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://{{heroImage}}" />
+
+    <title></title>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PFGXWQ8');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://templates.marketo.net/template4/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background: #ffffff;
+        }
+
+        /* BUTTON CONFIGURATIONS */
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .btn-blue {
+            border: 2px solid #a6ffff;
+            color: #a6ffff;
+            background: transparent;
+            border-radius: 0px;
+        }
+
+        .btn-blue:hover {
+            background: #a6ffff;
+            color: #000000;
+        }
+
+        .btn-dark {
+            border: 2px solid #000000;
+            color: #000000;
+            background: transparent;
+            border-radius: 0px;
+        }
+
+        .btn-dark:hover {
+            background: #000000;
+            color: #fff;
+        }
+
+        /* BOOTSTRAP MODIFICATIONS */
+
+        .navbar {
+            border: 0;
+        }
+
+        .navbar-inverse {
+            background: #e5e5e5;
+            background-color: transparent;
+        }
+
+        .navbar-inverse .navbar-nav>li>a {
+            color: #444444;
+            background-color: transparent;
+        }
+
+        .navbar-inverse .navbar-nav>li>a:hover {
+            color: #444444;
+            background-color: transparent;
+        }
+
+        .navbar-inverse .navbar-nav>.active>a,
+        .navbar-inverse .navbar-nav>.active>a:hover,
+        .navbar-inverse .navbar-nav>.active>a:focus {
+            color: #444444;
+            background-color: transparent;
+        }
+
+        .navbar-brand {
+            font-weight: 900;
+            padding: 0;
+        }
+
+        .navbar-inverse .navbar-brand:hover,
+        .navbar-inverse .navbar-brand:focus {
+            color: #d9dbda;
+            background-color: transparent;
+        }
+
+        .intro-header {
+            padding-top: 40px;
+            padding-bottom: 10px;
+            text-align: left;
+            color: #f8f8f8;
+            background: url(${heroImage}) no-repeat center center;
+            background-size: cover;
+        }
+
+        .intro-message {
+            position: relative;
+            padding-top: 5%;
+            padding-left: 10px;
+            padding-bottom: 8%;
+        }
+
+        .intro-message>h1 {
+            margin: 0;
+            font-size: 3.5em;
+            color: ${Headlinecolor};
+            font-weight: 700;
+            line-height: 110%;
+            font-variant-caps: normal!important;
+            text-transform: none!important;
+
+        }
+
+
+        h4 {
+            margin-top: 25px;
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 33px;
+            color: #333333;
+            font-weight: normal;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+
+        h5 {
+            font-weight: 600;
+        }
+
+        .blackrow {
+            background-color: #000000;
+            padding-top: 40px;
+        }
+
+        .callout {
+            max-width: 50ch;
+            padding-top: 10px;
+            padding-left: 30px;
+        }
+
+
+        .bluerow {
+            background-color: #a6ffff;
+            padding-top: 40px;
+        }
+
+        .bluetext {
+            color: #a6ffff;
+        }
+
+        .blacktext {
+            color: #000000;
+        }
+
+        .bottompad {
+            padding-bottom: 40px;
+        }
+
+        .toppad {
+            padding-top: 40px;
+            padding-bottom: 5%;
+        }
+
+        .topunderpad {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 10%;
+        }
+
+        a {
+            padding: 0;
+            margin: 0;
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: underline;
+            color: #ff4a2c;
+        }
+
+        p.bluetext a {
+            color: #a6ffff;
+            text-decoration: underline;
+        }
+
+        p.bluetext a:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+
+        .HeadlineCTA {
+            padding-left: 60px;
+        }
+
+        .blueback {
+            background-color: #a6ffff;
+            padding-bottom: 25px;
+        }
+
+        .whiteback {
+            background-color: #FFFFFF;
+            padding-bottom: 25px;
+        }
+
+        /* MARKETO FORM STYLING */
+
+        .mktoForm {
+            width: 100% !important;
+        }
+
+        .mktoForm .mktoFormRow {
+            float: left !important;
+            width: 100% !important;
+            position: relative !important;
+            min-height: 1px !important;
+            -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+            clear: none !important;
+        }
+
+        .mktoForm .mktoFormRow:nth-child(2n) {
+            margin-right: 6% !important;
+        }
+
+        .mktoForm .mktoFormCol {
+            width: 100% !important;
+        }
+
+        .mktoForm .mktoFieldWrap {
+            width: 100% !important;
+        }
+
+        .mktoForm .mktoOffset {
+            display: none !important;
+        }
+
+        .mktoForm .mktoLabel {
+            width: auto !important;
+            display: block !important;
+            float: none !important;
+            margin-bottom: 0px !important;
+            font-size: 13px !important;
+            font-family: "Graphik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        }
+
+        .mktoForm .mktoAsterix {
+            float: left !important;
+            padding-left: 0 !important;
+            padding-right: 2px !important;
+            color: #000 !important;
+        }
+
+        .mktoForm .mktoGutter {
+            display: none !important;
+        }
+
+        .mktoForm .mktoField {
+            display: block !important;
+            width: 100% !important;
+            padding: 10px !important;
+            margin-bottom: 5px !important;
+            float: none !important;
+            font-size: 13px !important;
+            font-family: "Graphik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            background-color: #FFFFFF !important;
+            border: 1px solid #000 !important;
+            height: auto !important;
+        }
+
+        .mktoForm .mktoField option {
+            background-color: #ffffff !important;
+        }
+
+        .mktoForm .mktoButtonRow {
+            float: right !important;
+            margin-top: 5px !important;
+            clear: both !important;
+        }
+
+        .mktoForm .mktoCheckboxList {
+            width: auto !important;
+        }
+
+        .mktoForm label[for="Marketing_Email_Opt_In__c"] {
+            padding-top: 0 !important;
+            width: 90% !important;
+            float: right !important;
+        }
+
+        .mktoForm label[for="Marketing_Email_Opt_In__c"] span[style] {
+            font-size: 16px !important;
+            line-height: 22px !important;
+        }
+
+        .mktoForm label[for="Marketing_Email_Opt_In__c"] span[style] a[style] {
+            color: #000 !important;
+            text-decoration: underline !important;
+        }
+
+        .mktoForm .mktoButtonWrap.mktoDownloadButton .mktoButton,
+        .mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+            display: inline-block !important;
+            height: 30px !important;
+            border: 2px solid #000 !important;
+            border-radius: initial !important;
+            color: #000000 !important;
+            padding: 12px 20px;
+            background: 0 0 !important;
+            font-family: "Graphik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            font-size: 16px !important;
+            line-height: 1.42857 !important;
+            text-shadow: none !important;
+            box-shadow: none !important;
+            -webkit-transition: all 0.2s ease !important;
+            -o-transition: all 0.2s ease !important;
+            transition: all 0.2s ease !important;
+        }
+
+        .mktoForm .mktoButtonWrap.mktoDownloadButton .mktoButton:hover,
+        .mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+            background: #000 !important;
+            border: 2px solid #000 !important;
+            color: #fff !important;
+            text-decoration: none !important;
+        }
+
+        .mktoForm select.mktoField {
+            -moz-appearance: none !important;
+            text-indent: 0.01px !important;
+            text-overflow: "" !important;
+            -webkit-border-radius: 0px !important;
+            -moz-border-radius: 0px !important;
+            border-radius: 0px 0px 0px 0px !important;
+            padding: .2em 22px 0.2em 0.3em !important;
+            background: #FFFFFF !important;
+            height: 30px !important;
+        }
+
+        .dtop_logo {
+            display: block;
+        }
+
+        .mobile_logo {
+            display: none;
+        }
+
+        /* Media Queries */
+
+        @media screen and (max-width: 600px) {
+            .mobile_logo {
+                display: block !important;
+                padding: 20px !important;
+                background-color: #000000 !important;
+                position: fixed !important;
+                right: 0 !important;
+                left: 0 !important;
+                z-index: 1030 !important;
+            }
+            .dtop_logo {
+                display: none !important;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFGXWQ8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <header id="navigation" class="navbar-fixed-top navbar dtop_logo">
+        <div class="container-fluid">
+            <div class="navbar-header" style="display: ${blacklogo}">
+                <a class="navbar-brand" href="https://www.visier.com">
+                    <img style="max-height: 190px; padding-top: 20px; padding-left: 40px;" src="http://pages.visier.com/rs/300-UJP-575/images/Visier_Vert_Black_WEBSVG.svg">
+                </a>
+            </div>
+            <div class="navbar-header" style="display: ${whitelogo}">
+                <a class="navbar-brand" href="https://www.visier.com">
+                    <img style="max-height: 190px; padding-top: 20px; padding-left: 40px;" src="https://www.visier.com/wp-content/uploads/2017/10/Visier_Vert_White_WEBSVG.svg">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="mobile_logo"><img src="https://www.visier.com/wp-content/uploads/2017/10/Visier_Horiz_white_NoTag.png" width="90px"></div>
+    <section id="home" name="home">
+        <div class="intro-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1"></div>
+                    <div class="col-md-7 col-sm-7">
+                        <div class="mktoText intro-message" id="HeroHeadline" mktoName="Main Headline">
+                            <h1>Main Headline.</h1>
+                            <h1>Goes Here.</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12"><img src="https://www.visier.com/wp-content/uploads/2017/05/shim.png" height="10px"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 col-sm-1 col-lg-1"></div>
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                    <div id="ShortMainCopy" style="display: ${showShortMainCopy}">
+                        <div class="mktoText" id="MainBodyCopy" mktoName="Main Body Copy">
+                            <h4>Subhead for LP Goes Here</h4>
+                            <p style="max-width: 90%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. Vivamus risus felis, hendrerit vel bibendum vitae, euismod at leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla varius, ipsum at dictum pellentesque, massa lacus iaculis sem, vel vestibulum risus erat a quam. Donec tincidunt at sem a luctus. Duis eu leo a est egestas commodo eget vitae diam. Ut tincidunt ante eu nisi vehicula dictum. Praesent quis lorem auctor, blandit turpis et, consequat tellus. Quisque non velit dapibus, venenatis orci vel, iaculis erat. Nullam rhoncus, risus vitae placerat iaculis, tortor risus fermentum felis, a vulputate nisl sapien nec augue.</p>
+                        </div>
+                    </div>
+                    <div id="OptionalCTA" style="display: ${showShortMainCopyCTA}">
+                        <a href="${shortBodyCTALink}">
+                            <button class="btn btn-lg btn-dark">${shortBodyCTALabel}</button>
+                        </a>
+                    </div>
+                </div>
+                <div style="display: ${formdiv}">
+                    <div class="col-md-4 col-sm-4 col-lg-4 blueback">
+                        <div style="display: ${LPFORM}">
+                            <div class="mktoText" id="FormHeading" mktoName="Form Subhead">
+
+                                <h4>Form Subhead</h4>
+                            </div>
+
+
+                            <div class="mktoForm" id="Resourceform" mktoName="Resource Gate Form">
+
+                            </div>
+                        </div>
+
+                        <div style="display: ${CALLOUT}">
+                            <div class="mktoText" id="calloutbox" mktoName="Call out Box">
+                                <h5 class="callout">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 whiteback">&nbsp;</div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-1 col-sm-1 col-lg-1"></div>
+                <div class="col-md-8 col-sm-8 col-lg-8">
+                    <div class="mktoText" id="videoheadline" mktoName="Video Headline" style="display: ${video}">
+                        <h4>Video Title Goes Here</h4>
+                    </div>
+                    <div class="mktoVideo" id="LPVideo" mktoName="Example Video" style="display: ${video}"></div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 bottompad">
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" id="twocolumncontentone" style="display: ${twocolumnblack}">
+                <div class="col-md-2 cold-sm-2"></div>
+                <div class="col-md-4 cold-sm-4">
+                    <img src="http://placehold.it/310" class="mktoImg" id="TwoColImg1" mktoName="Two Column Black Left Image" width=310 style="max-width: 310px;">
+                    <div class="mktoText" id="TwoColOne" mktoName="First Column Copy Black">
+                        <h5>Subhead</h5>
+                        <p style="max-width: 310px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. </p>
+                    </div>
+                    <a href="${TwoColBlckBtn1Link}">
+                        <button class="btn btn-lg btn-dark">${TwoColBlckBtn1Label}</button>
+                    </a>
+
+                </div>
+                <div class="col-md-4 cold-sm-4">
+                    <img src="http://placehold.it/310" class="mktoImg" id="TwoColImg2" mktoName="Two Column Black Right Image" width=310 style="max-width: 310px;">
+                    <div class="mktoText" id="TwoColTwo" mktoName="Second Column Copy Black">
+                        <h5>Subhead</h5>
+                        <p style="max-width: 310px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                    </div>
+                    <a href="${TwoColBlckBtn2Link}">
+                        <button class="btn btn-lg btn-dark">${TwoColBlckBtn2Label}</button>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-3 bottompad"></div>
+            </div>
+
+
+
+            <div class="row bluerow" id="twocolumncontenttwo" style="display: ${twocolumnblue}">
+                <div class="col-md-2 cold-sm-2"></div>
+                <div class="col-md-4 cold-sm-4">
+                    <img src="http://placehold.it/310" class="mktoImg" id="TwoColImg3" mktoName="Two Column Blue Left Image" width=310 style="max-width: 310px;">
+                    <div class="mktoText" id="TwoColThree" mktoName="First Column Copy Blue">
+                        <h5 class="blacktext">Subhead</h5>
+                        <p class="blacktext" style="max-width: 310px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. </p>
+                    </div>
+                    <a href="${TwoColBlckBtn3Link}">
+                        <button class="btn btn-lg btn-dark">${TwoColBlckBtn3Label}</button>
+                    </a>
+                </div>
+                <div class="col-md-4 cold-sm-4">
+                    <img src="http://placehold.it/310" class="mktoImg" id="TwoColImg4" mktoName="Two Column Blue Left Image" width=310 style="max-width: 310px;">
+                    <div class="mktoText" id="TwoColFour" mktoName="Second Column Copy Blue">
+                        <h5 class="blacktext">Subhead</h5>
+                        <p class="blacktext" style="max-width: 310px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                    </div>
+                    <a href="${TwoColBlckBtn4Link}">
+                        <button class="btn btn-lg btn-dark">${TwoColBlckBtn4Label}</button>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-3 bottompad"></div>
+            </div>
+        </div>
+        <div class="container-fluid" id="relatedcontent">
+            <div id="blackrelated" style="display: ${relatedblack}">
+                <div class="row blackrow">
+                    <div class="col-md-2 col-sm-2"></div>
+                    <div class="col-md-3 col-sm-3">
+
+                        <img src="http://placehold.it/200" class="mktoImg" id="RelatedImg1" mktoName="Related Content Image 1" width=200 style="max-width: 200px;">
+                        <div class="mktoText" id="RelatedContent1" mktoName="Related Content One">
+                            <h5 class="bluetext">Subhead</h5>
+                            <p class="bluetext" style="max-width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="bluetext"><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+
+                        <img src="http://placehold.it/200" class="mktoImg" id="RelatedImg2" mktoName="Related Content Image 2" width=200 style="max-width: 200px;">
+                        <div class="mktoText" id="RelatedContent2" mktoName="Related Content Two">
+                            <h5 class="bluetext">Subhead</h5>
+                            <p class="bluetext" style="max-width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="bluetext"><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <img src="http://placehold.it/200" class="mktoImg" id="RelatedImg3" mktoName="Related Content Image 3" width=200 style="max-width: 200px;">
+                        <div class="mktoText" id="RelatedContent3" mktoName="Related Content Three">
+                            <h5 class="bluetext">Subhead</h5>
+                            <p class="bluetext" style="max-width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="bluetext"><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-sm-1"></div>
+                </div>
+            </div>
+            <div id="bluerelated" style="display: ${relatedblue}">
+                <div class="row bluerow">
+                    <div class="col-md-2 col-sm-2"></div>
+                    <div class="col-md-3 col-sm-3">
+                        <img src="http://placehold.it/200" class="mktoImg" id="RelatedImg4" mktoName="Related Content Image 4" width=200 style="max-width: 200px;">
+                        <div class="mktoText" id="RelatedContent4" mktoName="Related Content Four">
+                            <h5 class="blacktext">Subhead</h5>
+                            <p class="blacktext" style="max-width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="blacktext"><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <img src="http://placehold.it/200" class="mktoImg" id="RelatedImg5" mktoName="Related Content Image 5" width=200 style="max-width: 200px;">
+                        <div class="mktoText" id="RelatedContent5" mktoName="Related Content Five">
+                            <h5 class="blacktext">Subhead</h5>
+                            <p class="blacktext" style="max-width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="blacktext"><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <img src="http://placehold.it/200" class="mktoImg" id="RelatedImg6" mktoName="Related Content Image 6" width=200 style="max-width: 200px;">
+                        <div class="mktoText" id="RelatedContent6" mktoName="Related Content Six">
+                            <h5 class="blacktext">Subhead</h5>
+                            <p class="blacktext" style="max-width: 200px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. </p>
+                            <p class="blacktext"><a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+        <section id="eventinfo" display="inline-block">
+            <div class="container-fluid" id="eventcontainer">
+                <div class="row topunderpad blackrow" style="display: ${flushleft1}">
+                    <div class="col-md-2 col-sm-2"></div>
+                    <div class="col-md-2 col-sm-2">
+
+                        <img src="http://placehold.it/140" class="mktoImg" id="Flushimg1" mktoName="Flush Left Image 1" width=140 style="max-width: 140px;">
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="mktoText" id="Flush1" mktoName="Flush Text 1">
+                            <h5 class="bluetext">Subhead</h5>
+                            <p class="bluetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="bluetext"><a href="#">Learn More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3"></div>
+                </div>
+                <div class="row topunderpad" style="display: ${flushleft2}">
+                    <div class="col-md-2 col-sm-2"></div>
+                    <div class="col-md-2 col-sm-2">
+                        <img src="http://placehold.it/140" class="mktoImg" id="Flushimg2" mktoName="Flush Left Image 2" width=140 style="max-width: 140px;">
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="mktoText" id="Flush2" mktoName="Flush Text 2">
+                            <h5 class="blacktext">Subhead</h5>
+                            <p class="blacktext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="blacktext"><a href="#">Learn More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3"></div>
+                </div>
+                <div class="row topunderpad blackrow" style="display: ${flushleft3}">
+                    <div class="col-md-2 col-sm-2"></div>
+                    <div class="col-md-2 col-sm-2">
+                        <img src="http://placehold.it/140" class="mktoImg" id="Flushimg3" mktoName="Flush Left Image 3" width=140 style="max-width: 140px;">
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="mktoText" id="Flush3" mktoName="Flush Text 3">
+                            <h5 class="bluetext">Subhead</h5>
+                            <p class="bluetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="bluetext"><a href="#">Learn More</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3"></div>
+                </div>
+                <div class="row topunderpad" style="display: ${flushleft4}">
+                    <div class="col-md-2 col-sm-2"></div>
+                    <div class="col-md-2 col-sm-2">
+                        <img src="http://placehold.it/140" class="mktoImg" id="Flushimg4" mktoName="Flush Left Image 4" width=140 style="max-width: 140px;">
+                    </div>
+                    <div class="col-md-5 col-sm-5">
+                        <div class="mktoText" id="Flush4" mktoName="Flush Text 4">
+                            <h5 class="blacktext">Subhead</h5>
+                            <p class="blacktext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo volutpat nulla eu fringilla. Vivamus feugiat dui ut velit tincidunt, et auctor neque aliquet.</p>
+                            <p class="blacktext"><a href="#">Learn More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="blackrow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="bluetext" style="padding-top: 30px; padding-bottom: 30px;">Copyright &copy; 2017 Visier Inc. All Rights Reserved | <a href="http://www.visier.com/privacy/"> Privacy </a> | <a href="http://www.visier.com/terms-of-use-agreement/">Terms of Use Agreement</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="//templates.marketo.net/template4/js/jquery.min.js"></script>
+        <script src="//templates.marketo.net/template4/js/bootstrap.min.js"></script>
+        <script src="//templates.marketo.net/template4/js/retina-1.1.0.js"></script>
+        <script>
+            if (document.domain == 'visier.com' || document.domain == 'www.visier.com') {
+
+                (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+                ga('create', 'UA-46606194-1', 'visier.com');
+
+                ga('send', 'pageview');
+
+            } else { // GA for staging server
+
+                (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function() {
+
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+
+                        m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+                ga('create', 'UA-58134536-1', 'auto');
+
+                ga('send', 'pageview');
+
+            }
+
+        </script>
+        <script data-obct type="text/javascript">
+            /** DO NOT MODIFY THIS CODE**/ ! function(_window, _document) {
+                var OB_ADV_ID = '00109be4957a33af57b1abeb170701cffe';
+                if (_window.obApi) {
+                    return;
+                }
+                var api = _window.obApi = function() {
+                    api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
+                };
+                api.version = '1.0';
+                api.loaded = true;
+                api.marketerId = OB_ADV_ID;
+                api.queue = [];
+                var tag = _document.createElement('script');
+                tag.async = true;
+                tag.src = '//amplify.outbrain.com/cp/obtp.js';
+                tag.type = 'text/javascript';
+                var script = _document.getElementsByTagName('script')[0];
+                script.parentNode.insertBefore(tag, script);
+            }(window, document);
+            obApi('track', 'PAGE_VIEW');
+
+        </script>
+        <!-- Twitter universal website tag code -->
+        <script>
+            ! function(e, t, n, s, u, a) {
+                e.twq || (s = e.twq = function() {
+                        s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+                    }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                    a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+            }(window, document, 'script');
+            // Insert Twitter Pixel ID and Standard Event data below
+            twq('init', 'ny7yv');
+            twq('track', 'PageView');
+
+        </script>
+        <!-- End Twitter universal website tag code -->
+
+        <script type="text/javascript">
+            adroll_adv_id = "5JE45WDSNFBLDFD6E6FRA7";
+            adroll_pix_id = "XVUANPCVHBH6HIZ2GVEVE7";
+            /* OPTIONAL: provide email to improve user identification */
+            /* adroll_email = "username@example.com"; */
+            (function() {
+                var _onload = function() {
+                    if (document.readyState && !/loaded|complete/.test(document.readyState)) {
+                        setTimeout(_onload, 10);
+                        return
+                    }
+                    if (!window.__adroll_loaded) {
+                        __adroll_loaded = true;
+                        setTimeout(_onload, 50);
+                        return
+                    }
+                    var scr = document.createElement("script");
+                    var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                    scr.setAttribute('async', 'true');
+                    scr.type = "text/javascript";
+                    scr.src = host + "/j/roundtrip.js";
+                    ((document.getElementsByTagName('head') || [null])[0] ||
+                        document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+                };
+                if (window.addEventListener) {
+                    window.addEventListener('load', _onload, false);
+                } else {
+                    window.attachEvent('onload', _onload)
+                }
+            }());
+
+        </script>
+
+    </div>
+</body>
+
+</html>
